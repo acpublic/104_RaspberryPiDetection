@@ -8,3 +8,7 @@
 lsusb
 Bus 001 Device 004: ID 0c45:6366 Microdia Webcam
 ```
+## 顔検出
+```
+sudo apt install python3-opencv
+```
