@@ -22,11 +22,9 @@ sudo apt install python3-opencv
 ### Webhook URLの取得
 - Spidey Bot
 - ウェブフックURLをコピー
-- curlインストール
+- curlで通知
 ```
 sudo apt install libcurl4-openssl-dev
-```
-- Discordに通知
-```
 curl -X POST -F "file=@/home/my-pi/MyApp2/test.jpg" "https://discord.com/api/webhooks/XXXX/XXXX"
 ```
+- pythonで通知
