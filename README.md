@@ -25,7 +25,7 @@ sudo apt install python3-opencv
 - curlで通知
 ```
 sudo apt install libcurl4-openssl-dev
-curl -X POST -F "file=@/home/my-pi/MyApp2/test.jpg" "https://discord.com/api/webhooks/XXXX/XXXX"
+curl -X POST -F "file=@/home/my-pi/MyApp2/test.jpg" "https://discord.com/api/webhooks/XXXX/YYYY"
 ```
 - pythonで通知
 ```python
