@@ -28,3 +28,12 @@ sudo apt install libcurl4-openssl-dev
 curl -X POST -F "file=@/home/my-pi/MyApp2/test.jpg" "https://discord.com/api/webhooks/XXXX/XXXX"
 ```
 - pythonで通知
+```python
+WEBHOOK_URL = "https://discord.com/api/webhooks/XXXX/YYYY"
+DATA = {
+    "content": "Raspberry Piからの通知！",
+}
+        with open(filename, "rb") as f:
+            files = {"file": f}
+            response = requests.post(WEBHOOK_URL, data=DATA, files=files)
+```
