@@ -9,7 +9,7 @@ import os
 import requests
 
 # 通知先Discord
-WEBHOOK_URL = "https://discord.com/api/webhooks/xxx/yyy"
+WEBHOOK_URL = "https://discord.com/api/webhooks/XXX/YYY"
 DATA = {
     "content": "Raspberry Pi からの通知！",
 }
